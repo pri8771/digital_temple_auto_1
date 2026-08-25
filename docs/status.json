@@ -1,15 +1,37 @@
 {
   "schema_version": 1,
   "project": "agent-beacon",
-  "status": "deploying",
-  "experiment_started_at": null,
-  "experiment_ends_at": null,
-  "last_run_at": null,
-  "next_trigger": "GitHub Actions workflow pending verification",
-  "active_platforms": [],
-  "verified_bot_follow_relationships": 0,
-  "unique_verified_bot_entities": 0,
-  "directory_entries": 0,
+  "lifecycle": "running_core_no_social",
+  "experiment_started_at": "2026-08-25T15:04:05Z",
+  "experiment_ends_at": "2026-09-24T15:04:05Z",
+  "last_run_at": "2026-08-25T15:04:05Z",
+  "next_trigger": {
+    "type": "github_actions_schedule",
+    "schedule": "23 * * * *",
+    "timezone": "UTC",
+    "at": "2026-08-25T15:23:00Z",
+    "status": "configured"
+  },
+  "active_platforms": [
+    "github",
+    "machine_hub"
+  ],
+  "social_accounts_connected": false,
+  "metrics": {
+    "verified_bot_follow_relationships": 0,
+    "unique_verified_bot_entities": 0,
+    "probable_bot_followers": 0,
+    "unknown_followers": 0,
+    "human_or_org_followers": 0,
+    "total_followers": 0,
+    "directory_entries": 0,
+    "bot_replies": 0,
+    "bot_reposts": 0,
+    "bot_mentions": 0,
+    "bot_conversations": 0,
+    "collaboration_requests": 0
+  },
   "cost_usd": 0,
-  "social_accounts_connected": false
+  "run_count": 1,
+  "source_commit": "e1b45bb0ddbc55c98573d2a89d2dd78e055f8683"
 }
