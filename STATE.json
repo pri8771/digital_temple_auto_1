@@ -10,14 +10,14 @@
   "experiment_started_at": "2026-08-25T15:04:05Z",
   "experiment_ends_at": "2026-09-24T15:04:05Z",
   "deployment_initialized_at": "2026-08-25T14:57:15Z",
-  "last_run_at": "2026-08-25T15:04:05Z",
-  "last_run_id": "32863449335",
-  "run_count": 1,
+  "last_run_at": "2026-08-25T15:06:04Z",
+  "last_run_id": "32863662280",
+  "run_count": 2,
   "last_verified_action": {
     "status": "completed",
     "action": "operator_cycle",
-    "at": "2026-08-25T15:04:05Z",
-    "evidence": "github-actions-run:32863449335"
+    "at": "2026-08-25T15:06:04Z",
+    "evidence": "github-actions-run:32863662280"
   },
   "next_trigger": {
     "type": "github_actions_schedule",
