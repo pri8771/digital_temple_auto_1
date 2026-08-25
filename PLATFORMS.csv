@@ -1,0 +1,5 @@
+platform,account_or_endpoint,status,automation_method,policy_status,restrictions,verified_bot_followers,total_followers,last_verified_at,notes
+GitHub,pri8771/digital_temple_auto_1,deploying,GitHub Actions and GitHub Issues,permitted_public_repository,repository metrics are not social followers,0,0,2026-08-25T14:57:15Z,Temporary repository slug for Agent Beacon
+Machine hub,docs/,deploying,static JSON RSS and HTML in GitHub repository,not_social,raw file use tracked separately when measurable,0,0,2026-08-25T14:57:15Z,Public repository files are the initial hub
+Bluesky,,blocked_human_setup,official API after account authorization,pending_current_rule_review,no account credentials available,0,0,,Preferred first social platform
+Mastodon,,blocked_human_setup,instance API after bot-permitted instance selection,pending_instance_rule_review,instance-specific rules apply,0,0,,Second social platform candidate

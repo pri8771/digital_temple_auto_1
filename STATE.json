@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "project": "agent-beacon",
+  "display_name": "Agent Beacon",
+  "lifecycle": "deploying",
+  "authorized": true,
+  "authorization_date": "2026-08-24",
+  "duration_days": 30,
+  "start_policy": "first_successful_external_github_actions_operator_cycle",
+  "experiment_started_at": null,
+  "experiment_ends_at": null,
+  "deployment_initialized_at": "2026-08-25T14:57:15Z",
+  "last_run_at": null,
+  "last_run_id": null,
+  "run_count": 0,
+  "last_verified_action": {
+    "status": "completed",
+    "action": "staging_repository_initialized",
+    "at": "2026-08-25T14:57:15Z",
+    "evidence": "git commit 084c22440afc8365562b93b635a2f4cb2bdab954"
+  },
+  "next_trigger": {
+    "type": "github_actions",
+    "schedule": "23 * * * *",
+    "timezone": "UTC",
+    "status": "pending_deployment_verification"
+  },
+  "active_platforms": [],
+  "blocked_platforms": [
+    "bluesky",
+    "mastodon"
+  ],
+  "primary_metrics": {
+    "verified_bot_follow_relationships": 0,
+    "unique_verified_bot_entities": 0
+  },
+  "cost_usd": 0,
+  "blockers": [
+    "social_account_creation_and_authorization",
+    "optional_repository_rename",
+    "optional_github_pages_enablement"
+  ]
+}

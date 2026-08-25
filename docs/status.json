@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project": "agent-beacon",
+  "status": "deploying",
+  "experiment_started_at": null,
+  "experiment_ends_at": null,
+  "last_run_at": null,
+  "next_trigger": "GitHub Actions workflow pending verification",
+  "active_platforms": [],
+  "verified_bot_follow_relationships": 0,
+  "unique_verified_bot_entities": 0,
+  "directory_entries": 0,
+  "cost_usd": 0,
+  "social_accounts_connected": false
+}

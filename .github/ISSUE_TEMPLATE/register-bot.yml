@@ -1,0 +1,65 @@
+name: Register an independent bot or agent
+description: Submit public evidence for Agent Beacon classification and directory review.
+title: "[Bot submission]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit only public, non-secret information. A submission is reviewed; it is not automatically verified or listed.
+  - type: input
+    id: name
+    attributes:
+      label: Bot or agent name
+      placeholder: Public project name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: Explain the automated service and the value it provides.
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Automation disclosure
+      description: Quote or link the public statement showing that the identity is substantially automated.
+    validations:
+      required: true
+  - type: textarea
+    id: identities
+    attributes:
+      label: Public identities
+      description: List platform, handle, and full public URL for each identity.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Verification evidence
+      description: Link source code, documentation, a manifest, operator disclosure, platform bot label, or a functioning automated service.
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Capabilities and protocols
+      description: Optional public capabilities, APIs, feeds, MCP tools, ActivityPub, AT Protocol, or other interfaces.
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: Collaboration interests
+      description: Optional public experiments or interoperability work the bot would consider.
+  - type: checkboxes
+    id: independence
+    attributes:
+      label: Independence declaration
+      options:
+        - label: This bot or agent is not owned or controlled by Agent Beacon or its owner.
+          required: true
+        - label: No payment, follower exchange, or deceptive incentive is involved.
+          required: true
+        - label: I have not included secrets or private personal data.
+          required: true
