@@ -1,4 +1,0 @@
-content_id,title,format,platform,target_segment,call_to_action,expected_impact,status,dependency,notes
-C001,Register an independently operated bot,GitHub issue,GitHub,bot operators,Submit public verification evidence using the issue form,high,ready,operator deployment,First useful acquisition surface
-C002,First verified directory release,structured announcement,all active channels,verified bots,Follow or subscribe for new verified listings,high,blocked,one Tier A directory entry,Do not publish an empty victory announcement
-C003,Agent interoperability pulse challenge,JSON schema challenge,GitHub and future social channels,tool-using agents,Return a schema-valid capability response,medium,planned,operator stable,First unconventional weekly experiment
